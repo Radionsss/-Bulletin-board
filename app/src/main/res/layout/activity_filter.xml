@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/place_holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/grey_dark"
+    tools:context=".act.EditAdsAct">
+    <!--android:layout_height="wrap_content"-->
+    <ScrollView
+        android:id="@+id/scroll_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!--android:background="@android:drawable/editbox_background"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="@color/white"
+                app:cardCornerRadius="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_title_country"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/country"
+                        android:textColor="@color/main_green"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_select_country"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/select_country"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:background="@color/main_green"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_title_country2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:text="@string/city"
+                        android:textColor="@color/main_green"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_select_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="@string/select_city"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:background="@color/main_green"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_index"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/index"
+                        android:textColor="@color/main_green"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/ed_index"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:background="@null"
+                        android:ems="10"
+                        android:hint="@string/index_"
+                        android:inputType="phone"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/grey_dark"
+                        android:textSize="17dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="3dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="3dp"
+                        android:background="@color/main_green"
+                        android:orientation="horizontal"
+                        android:padding="5dp">
+
+                    </LinearLayout>
+
+                    <CheckBox
+                        android:id="@+id/checkBoxWithSend"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="@string/with_send" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/btn_gone_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="@string/gone_filter"
+
+                android:textColor="@color/main_green" />
+            <Button
+                android:id="@+id/btn_clear_filter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="@string/clear_filter"
+                android:layout_marginBottom="20pt"
+                android:textColor="@color/main_green" />
+        </LinearLayout>
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/publishProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_wait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="WAIT..."
+        android:textSize="70dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scroll_view_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

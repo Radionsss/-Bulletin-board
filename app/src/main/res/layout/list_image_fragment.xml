@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ActionBarCustom" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        app:adSize="BANNER"
+        app:adUnitId="@string/ad_id"
+        android:layout_below="@+id/toolbar_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_view_select_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey_dark"
+        android:layout_below="@+id/adView"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">BulletinBoardTwo</string>
+    <string name="ad_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_inter_id">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="ad_cat1">Объявления</string>
+
+    <string name="ad_my_ads">Мои объявления </string>
+
+    <string name="ad_default">Разное</string>
+
+    <string name="ad_car">Машины</string>
+
+    <string name="ad_pc">Компьютеры</string>
+
+    <string name="ad_smartphone">Смартфоны</string>
+
+    <string name="ad_dm">Бытовая техника</string>
+
+    <string name="ad_cat2">Аккаунт</string>
+
+    <string name="ad_sign_up">Зарегестрироватся</string>
+
+    <string name="ad_sign_in">Войти</string>
+
+    <string name="ad_sign_out">Выйти</string>
+
+    <string name="forget_sign">Забыли пароль</string>
+
+    <string name="not_reg">Войдите или Зарегестрируйтесь</string>
+
+    <string name="open">Открыть</string>
+
+    <string name="close">Закрыть</string>
+
+    <!--dialog_layout-->
+
+
+    <string name="email">Email</string>
+    <string name="email_">Email:</string>
+
+    <string name="password">Password</string>
+
+    <string name="sign_in">Вход</string>
+
+    <string name="registration">Регистрация</string>
+
+    <string name="remove_ads">Убрать рекламу</string>
+
+    <string name="registration_error">Не удалось зарегистрироватся</string>
+
+    <string name="sign_in_error">Не удалось войти</string>
+
+    <string name="email_error">Не удалось зарегистрироватся</string>
+
+    <string name="password_reset_was_send">Письмо для изменения пароля было успешно отправлено</string>
+
+    <string name="password_reset_error">Для востонновления пароля ведите свой Email адрес </string>
+
+    <string name="email_send_verification">На вашу почту была отправлена ссылка для подтверждения! </string>
+
+    <string name="no_result">Совподений не найдено</string>
+
+    <string name="guest_sign_in">Гость</string>
+
+    <string name="have_account">У вас уже есть аккаунт</string>
+    <string name="email_link_successfully">email аккаунт был упешно подключен</string>
+    <string name="account_does_not_exist">Данный аккаунт не существует</string>
+    <string name="not_correct_password_or_email">Не верный пароль или email</string>
+    <string name="not_correct_email">Не верно веден Email</string>
+    <string name="error_small_password">Пароль должен быть не менее 6 символов</string>
+
+    <!--Edit text COUNTRY-->
+
+
+    <string name="select_country">*Выберите страну</string>
+
+    <string name="select_city">*Выберите город</string>
+
+    <string name="no_select_city">Сначала выберите страну</string>
+    <string name="country">Страна:</string>
+    <string name="city">Город:</string>
+    <string name="index">Индекс:</string>
+    <string name="index_">*Индекс</string>
+    <string name="phone">Телефон:</string>
+    <string name="phone_number">*Номер телефона</string>
+
+    <string name="category">Категория:</string>
+    <string name="hint_category">*Выберите категорию</string>
+    <string name="name_ad">*Название объявления</string>
+    <string name="price">Цена:</string>
+    <string name="price_hint">*Укажите цену</string>
+    <string name="description">Описание:</string>
+    <string name="description_">Описание</string>
+    <string name="description_star">*Описание</string>
+    <string name="with_send">С отправкой</string>
+    <string name="with_send_">С отправкой:</string>
+    <string name="gone">Готово</string>
+    <string name="title_ad">Название</string>
+    <string name="gone_filter">Применить фильтр</string>
+    <string name="clear_filter">Очистить фильтр</string>
+
+    <string name="favorites_ad">Избранное</string>
+
+    <string name="empty">Пока пусто:( </string>
+
+</resources>

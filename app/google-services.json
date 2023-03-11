@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "153737141473",
+    "firebase_url": "https://bulletboardtwo-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "bulletboardtwo",
+    "storage_bucket": "bulletboardtwo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153737141473:android:0946c99c112e314decaba0",
+        "android_client_info": {
+          "package_name": "com.example.bulletinboardtwo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153737141473-ckqfacr096j7ndp4fev1aa2b6n8q42rn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bulletinboardtwo",
+            "certificate_hash": "7aa30c655b025299c4763fa38eeb2acbe44d3428"
+          }
+        },
+        {
+          "client_id": "153737141473-j20e4n3lmkqelkd65qee1fcso4pgtnj9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDues-fSWEFA-R_Gt5VjWPTeogb3sVrisw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153737141473-j20e4n3lmkqelkd65qee1fcso4pgtnj9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
